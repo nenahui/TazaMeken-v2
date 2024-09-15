@@ -1,0 +1,6 @@
+.mainDiv{
+    position: absolute;
+    z-index: 99;
+    left: 45%;
+    @apply flex flex-col gap-7 w-[653px]
+}
