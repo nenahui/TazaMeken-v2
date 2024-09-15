@@ -1,0 +1,31 @@
+.block{
+    margin-top: 83px;
+    .mainText{
+        font-size: 32px;
+    }
+    .container{
+        background-color: #fff;
+        padding: 24px 24px;
+        margin-top: 62px;
+        display: flex;
+        justify-content: space-around;
+        .text{
+            font-size: 22px;
+            margin-top: 16px;
+            font-weight: 500;
+        }
+        .description{
+            max-width: 221px;
+            margin-top: 9px;
+        }
+        .btnWrapper{
+            margin-top: 34px;
+            .btn{
+                border: 1px solid #091E42;
+                border-radius: 5px;
+                padding: 13px 17px;
+            }
+        }
+    }
+}
+
