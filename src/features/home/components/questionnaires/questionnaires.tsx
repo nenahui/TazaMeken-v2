@@ -1,6 +1,6 @@
 import { Input } from '@/components/ui/input';
 import { NavLink } from 'react-router-dom';
-import img from '@/assets/questionnairesImg.svg'
+import img from '@/assets/questionnairesImg.svg';
 
 const Questionnaires = () => {
   return (
@@ -13,11 +13,13 @@ const Questionnaires = () => {
         <div className='flex flex-col gap-3 max-w-[330px]'>
           <Input type='email' placeholder='Email' />
           <NavLink to=''>
-            <button className='text-[14px] bg-[#679778] px-2 py-4 text-white rounded-[18px]'>Зарегистрируйтесь — это бесплатно!</button>
+            <button className='text-[14px] bg-[#679778] px-2 py-4 text-white rounded-[18px]'>
+              Зарегистрируйтесь — это бесплатно!
+            </button>
           </NavLink>
         </div>
       </div>
-      <img src={img} alt="error" />
+      <img src={img} alt='error' />
     </div>
   );
 };

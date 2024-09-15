@@ -1,7 +1,7 @@
 import JoinUs from './joinUs/joinUs';
 import MainSlogan from './mainSlogan/mainSlogan';
 import Sponsers from './sponsers/sponsers';
-import styles from './mainInfo.module.scss'
+import styles from './mainInfo.module.scss';
 
 const MainInfo = () => {
   return (
@@ -10,7 +10,7 @@ const MainInfo = () => {
         <Sponsers />
         <JoinUs />
       </div>
-      <MainSlogan/>
+      <MainSlogan />
     </div>
   );
 };

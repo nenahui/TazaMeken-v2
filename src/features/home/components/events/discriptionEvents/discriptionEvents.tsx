@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import styles from './discriptionEvents.module.scss'
+import styles from './discriptionEvents.module.scss';
 
 const DiscriptionEvents = () => {
   return (

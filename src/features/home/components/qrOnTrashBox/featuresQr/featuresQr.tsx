@@ -1,6 +1,6 @@
 import qrTrashBox from '@/assets/qrTrashBox.svg';
 import GreenCard from '../../greenCard/greenCard';
-import styles from './featuresQr.module.scss'
+import styles from './featuresQr.module.scss';
 
 const FeaturesQr = () => {
   return (

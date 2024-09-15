@@ -10,13 +10,13 @@ import VideoLessons from './components/videoLessons/videoLessons';
 export const Home: React.FC = () => {
   return (
     <div className='flex flex-col gap-[121px]'>
-      <MainInfo/>
-      <QrOnTrashBox/>
-      <Statistica/>
-      <Articles/>
-      <Events/>
-      <Questionnaires/>
-      <VideoLessons/>
+      <MainInfo />
+      <QrOnTrashBox />
+      <Statistica />
+      <Articles />
+      <Events />
+      <Questionnaires />
+      <VideoLessons />
     </div>
   );
 };
