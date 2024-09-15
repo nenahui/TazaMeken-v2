@@ -10,7 +10,7 @@ export const App: React.FC = () => {
     <Layout>
       <Routes>
         <Route path={'/'} element={<Home />} />
-        <Route path={'/ec-merch'} element={<Merch />} />
+        <Route path={'/eco-merch'} element={<Merch />} />
         <Route path={'/about'} element={<About />} />
       </Routes>
     </Layout>
