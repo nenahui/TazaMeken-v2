@@ -1,0 +1,7 @@
+.navList {
+  @apply flex justify-between text-lg border-b-2 pb-2 mb-14;
+
+  & li {
+    @apply hover:text-primary duration-200 transition-colors;
+  }
+}

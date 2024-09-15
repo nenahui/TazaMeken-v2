@@ -1,0 +1,6 @@
+.mainDiv {
+  background-image: url('src/assets/mainInfoBgImg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  @apply flex flex-row justify-between px-12 py-16;
+}

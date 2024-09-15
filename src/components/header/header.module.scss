@@ -1,19 +1,19 @@
 .header {
-	@apply flex justify-between items-center bg-[#183D2508] py-2 px-16 rounded-full mb-9;
+  @apply flex justify-between items-center bg-[#183D2508] py-2 px-16 rounded-full mb-9;
 }
 
 .nav {
-	@apply flex gap-12 text-lg;
-	
-	& li {
-		@apply hover:text-[#3AA836] duration-200 transition-colors;
-	}
+  @apply flex gap-12;
+
+  & li {
+    @apply hover:text-[#3AA836] duration-200 transition-colors;
+  }
 }
 
 .logo {
-	@apply hover:text-[#3AA836] transition-colors duration-200;
-	
-	.logoIcon {
-		@apply size-10 text-inherit;
-	}
+  @apply hover:text-[#3AA836] transition-colors duration-200;
+
+  .logoIcon {
+    @apply size-10 text-inherit;
+  }
 }
